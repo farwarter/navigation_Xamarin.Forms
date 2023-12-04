@@ -7,9 +7,9 @@ namespace navigation
     {
         public GalleryPage()
         {
-            Image image1 = new Image { Source = "https://i.imgur.com/oMw0m8n.png" };
-            Image image2 = new Image { Source = "https://i.imgur.com/BXiP1cb.png" };
-            Image image3 = new Image { Source = "https://i.imgur.com/MhClfYo.jpg" }; //последнее фото всегда не прогружается — почему???
+            Image image1 = new Image { Source = "capi1.png" };
+            Image image2 = new Image { Source = "capi2.png" };
+            Image image3 = new Image { Source = "capi3.jpg" };
 
             Button backButton = new Button
             {

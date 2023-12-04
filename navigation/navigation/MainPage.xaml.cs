@@ -8,6 +8,7 @@ namespace navigation
         public MainPage()
         {
             Title = "Главная страница";
+
             Button toCommonPageBtn = new Button
             {
                 Text = "На обычную страницу",
@@ -28,7 +29,11 @@ namespace navigation
             };
             toModalPageBtn.Clicked += ToModalPage;
 
-            Content = new StackLayout { Children = { toCommonPageBtn, toModalPageBtn } };
+            Content = new StackLayout { 
+                Children = { 
+                    toCommonPageBtn, toModalPageBtn 
+                } 
+            };
         }
 
         private async void ToModalPage(object sender, EventArgs e)
